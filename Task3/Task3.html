@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Поиск университетов по странам</h1>
+
+        <div class="search-form">
+            <div class="input-group">
+                <input type="text" id="country-input" placeholder="Введите название страны">
+                <div class="buttons">
+                    <button id="submit-btn" class="btn btn-primary">Отправить</button>
+                    <button id="reset-btn" class="btn btn-secondary">Сброс</button>
+                </div>
+            </div>
+            <div id="loader" class="loader hidden"></div>
+        </div>
+
+        <div id="results-container" class="results-container">
+        </div>
+    </div>
+
+    <script src="task3.js"></script>
+</body>
+</html>
